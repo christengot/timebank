@@ -3,17 +3,17 @@
 # Timebank
 #
 # Started in July, 2012.
-# Last updated on 08/10/2012.
-# Current version:	0.1
+# Last updated on 08/12/2012.
+# Current version:	0.2
 #
 # This is a simple, Mint-inspired time manager,
 # designed to help track time spent on activities and
 # display them in an easy, useful manner.
 #
 # This project is nowhere near finished and barely tested.
-# Type "help(timebank)" in python to see available functions.
+# Use "help" in python for details on individual functions.
 #
-# TODO:	percentage graphing, tag search/editing, gui
+# TODO:	tag search/editing, sorting, goals, gui
 #
 # Written by Christen Gottschlich.
 # For questions and/or bugs, email christen.got@gmail.com.
