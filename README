@@ -5,7 +5,7 @@
 # Started in July, 2012.
 # Last updated on 08/12/2012.
 # Current version:	0.2
-# Tested using python v2.6.6
+# Made and tested using python v2.6.6 in Crunchbang Statler.
 #
 # This is a simple, Mint-inspired time manager,
 # designed to help track time spent on activities and
@@ -14,10 +14,56 @@
 # This project is nowhere near finished and barely tested.
 # Use "help" in python for details on individual functions.
 #
-# TODO:	tag search/editing, sorting, goals, date/time mgmt,
-# 		tighter controls on graphing, gui
+# Overview:
+# 
+# 	Time is logged using "banks".  Banks are stored as a
+# 	single file named "mybank".  It is highly recommended
+# 	that you rename the bank once it's scope is over (for
+# 	example, if "mybank" represents Mon - Sun, rename on
+# 	next Monday and setup a new bank for that week).
 #
-# Written by Christen Gottschlich.
+# 	The scope of a bank isn't set in stone.  It can be
+# 	changed on the fly using the "change()" command,
+# 	along with the display unit and other settings
+# 	(see help(change()) for usage).
+#
+# Usage:
+#
+# 	This program requires Python to be installed, preferably
+# 	version 2.6.6.  Version 3 of python will likely work,
+# 	but has not been tested yet (so may be buggy). This
+# 	program has also been untested in anything other than *Nix
+# 	(Crunchbang Statler, to be exact).
+#
+# 	To load Timebank, open python in the Timebank program
+# 	directory, and execute "import tb" or "from tb import *".
+# 	The latter is preferred, as you can call each command
+# 	directly by name (instead of prefixing "tb." to each).
+# 	However, this could create conflicts if another module
+# 	with functions or global variables of the same name is
+# 	loaded after Timebank, thus overriding Timebank's own.
+#
+# 	To start using Timebank, you first need a bank file.
+# 	To create one using the default values, simply run
+# 	"setup()" with no parameters in the parenthesis. You
+# 	can change the settings later by using "change()".
+#
+# 	After creating the bank, add items using
+# 	"debit(<time>, <tag>)".  To see your debits, use
+# 	"showt()".  Remember to enclose non-number values
+# 	using quotes, or the program will error.
+#
+# 	If the program does error during operation, don't fret --
+# 	if your bank has been corrupted, you can restore it by
+# 	replacing it with it's backup, <bankname> + '~'. Then
+# 	report the bug at the Timebank github repository so it's
+# 	fixed at the next release. :)
+#
+# 	If you have any complaints or suggestions, feel free to
+# 	email me and although I may not answer all, I will surely
+# 	read them.
+#
+# Written by Christen Gottschlich. Created July of 2012.
 # For questions and/or bugs, email christen.got@gmail.com.
 #
 ########################################

@@ -6,9 +6,10 @@
 # bug[1]	"update()" doesn't calculate estimated time
 # 			slept per scope correctly anymore. -- FIXED --
 #
-# bug[2]	Error in "showt()" after changing unit.  Corrupts
-# 			current bank.
+# bug[2]	Errors in changing unit, corrupting
+# 			current bank. -- FIXED --
 #
 # General concerns:
 #
+#	<none>
 #

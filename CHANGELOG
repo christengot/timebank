@@ -7,3 +7,9 @@
 		rows for settings, the last two being sleep time per
 		sleep scope and estimated time slept for scope.
 		Fixed bug[1], making sleep estimate truly accurate.
+
+0.4	 --	Created functions "start()" and "end()", which when
+		used together, record time for an activity and return
+		the value. Fixed a runtime error where changing the
+		unit leaves out writing of the estimated sleep time.
+
