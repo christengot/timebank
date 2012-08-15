@@ -1,1 +1,9 @@
-0.2	---	Function showt() now can show percentages of tags, with better display format.
+0.2	 --	Function "showt()" now can show percentages of tags,
+		with better display format.
+
+0.3  --	Fixed bug[0] by creating function "change()" which
+		edits settings one at a time. Added "setup()" for
+		easy bank initialization. "bank" file now uses five
+		rows for settings, the last two being sleep time per
+		sleep scope and estimated time slept for scope.
+		Fixed bug[1], making sleep estimate truly accurate.

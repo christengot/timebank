@@ -1,0 +1,14 @@
+# bug[0]	"config()" doesn't allow the user to overwrite
+#			single setting entries.  Attempting to 
+#			overwrite one affixes the default to unedited
+#			settings. -- FIXED --
+#
+# bug[1]	"update()" doesn't calculate estimated time
+# 			slept per scope correctly anymore. -- FIXED --
+#
+# bug[2]	Error in "showt()" after changing unit.  Corrupts
+# 			current bank.
+#
+# General concerns:
+#
+#
